@@ -26,7 +26,7 @@ palForm.addEventListener ('submit', (e) => {
         message = `${word} is a Palindrome word!`
     } else {
         console.log("It's not a palindrome word");
-        message = `${word} ain't a Palindrome word muh dude...`
+        message = `"${word}" ain't a Palindrome word muh dude...`
     }
 
     const result = document.querySelector('.resultPalindrome .result');
